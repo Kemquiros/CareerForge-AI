@@ -1,0 +1,29 @@
+# Archivos de configuración y secretos
+.env
+*.env
+
+# Archivos de base de datos
+*.db
+*.sqlite
+*.sqlite3
+
+# Artefactos generados por la aplicación
+/outputs/
+
+# Dependencias y entornos virtuales de Python
+venv/
+.venv/
+env/
+/env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de configuración de IDEs
+.vscode/
+.idea/
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
